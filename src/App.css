@@ -198,6 +198,35 @@
   color: #16bd00;
 }
 
+.current-balance-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.balance-input {
+  width: 100px;
+  padding: 2px 6px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #16bd00;
+  background:none;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #3e4e69;
+  padding: 2px;
+  transition: transform 0.2s ease;
+}
+
+.icon-btn:hover {
+  transform: scale(1.2);
+}
+
 
 
 
